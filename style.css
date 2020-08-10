@@ -151,23 +151,29 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .section-title{
+    padding-left: 10%;
+  }
+  .skill-box{
+    padding-left: 10%;
+  }
   .skill-bar-in-1{ 
-    width: 190%;
+    width: 210%;
   }
   .skill-bar-in-2{ 
-    width: 185%;
+    width: 200%;
   }
   .skill-bar-in-3{ 
     width: 170%;
   }
   .skill-bar-in-4{ 
-    width: 180%;
+    width: 185%;
   }
   .skill-bar-in-5{ 
-    width: 180%;
+    width: 185%;
   }
   .skill-bar-in-6{ 
-    width: 190%;
+    width: 210%;
   }
   .col-13{
     display: grid;
@@ -179,6 +185,7 @@
     background-color: #f8f9f9;
     text-align: center;
     flex-direction: column;
+    padding: 5%;
   }
   
   @viewport{
